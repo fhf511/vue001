@@ -8,7 +8,6 @@ import echarts from 'echarts'
 import weui from 'weui.js'
 import 'weui'
 
-
 Vue.prototype.$weui = weui
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false

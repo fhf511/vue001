@@ -34,6 +34,12 @@
         <li @click="navsub"><router-link to="login">login</router-link></li>
         <li @click="navsub"><router-link to="details">details</router-link></li>
         <li @click="navsub"><router-link to="details2">details2</router-link></li>
+        <li @click="navsub"><router-link to="xian">xian</router-link></li>
+        <li @click="navsub"><router-link to="pubuliu">瀑布流</router-link></li>
+        <li @click="navsub"><router-link to="pubuliu2">瀑布流2</router-link></li>
+        <li @click="navsub"><router-link to="pubuliu3">瀑布流3</router-link></li>
+        <li @click="navsub"><router-link to="shoufengqin">手风琴</router-link></li>
+        <li @click="navsub"><router-link to="shoufengqin2">手风琴2</router-link></li>
       </ul>
       <div class="mask" v-if="show"></div>
     </div>

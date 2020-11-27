@@ -30,6 +30,12 @@ import newslist from '@/components/newslist'
 import newslist2 from '@/components/newslist2'
 import details from '@/components/details'
 import details2 from '@/components/details2'
+import xian from '@/components/xian'
+import pubuliu from '@/components/pubuliu'
+import pubuliu2 from '@/components/pubuliu2'
+import pubuliu3 from '@/components/pubuliu3'
+import shoufengqin from '@/components/shoufengqin'
+import shoufengqin2 from '@/components/shoufengqin2'
 
 Vue.use(Router);
 
@@ -180,6 +186,36 @@ export default new Router({
       path: '/details2',
       name: 'details2',
       component: details2
+    },
+    {
+      path: '/xian',
+      name: 'xian',
+      component: xian
+    },
+    {
+      path: '/pubuliu',
+      name: 'pubuliu',
+      component: pubuliu
+    },
+    {
+      path: '/pubuliu2',
+      name: 'pubuliu2',
+      component: pubuliu2
+    },
+    {
+      path: '/pubuliu3',
+      name: 'pubuliu3',
+      component: pubuliu3
+    },
+    {
+      path: '/shoufengqin',
+      name: 'shoufengqin',
+      component: shoufengqin
+    },
+    {
+      path: '/shoufengqin2',
+      name: 'shoufengqin2',
+      component: shoufengqin2
     },
   ]
 })
